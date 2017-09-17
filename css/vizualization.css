@@ -1,0 +1,316 @@
+.bar-bg, .bar-bg1, .bar-bg-hover {
+    fill: #137622;
+}
+
+.bar-fg, .bar-fg1, .bar-fg-hover {
+    fill: #0b8dcc;
+}
+
+.cir, .tcir {
+    fill: #d0ca5f;
+}
+
+.cir-inner {
+    fill: #404041;
+}
+
+.tcir, .bar-fg-hover, .bar-bg-hover {
+    opacity: 0;
+}
+
+.cirhover {
+    fill: #ffeeb9;
+}
+
+.tick line, .domain {
+    stroke: #ffffff;
+    opacity: .1;
+}
+
+.tick text, .ticktxt {
+    fill: #f3cc55;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+.vline {
+    stroke: #f3cc55;
+    stroke-width: 1px;
+    stroke-dasharray: 3, 3;
+    opacity: 0;
+}
+
+.tvalue1 {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.43;
+    fill: #ffffff;
+    opacity: 0;
+}
+
+.tvalue2 {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.43;
+    fill: #ffffff;
+    opacity: 0;
+}
+
+.pathline {
+    fill: none;
+    stroke: #ffffff;
+    opacity: .1;
+}
+
+.rectBtnDefault {
+    fill: #294159;
+    stroke: #294159;
+    stroke-width: 1px;
+    cursor: pointer;
+}
+
+.rectBtnDefaultHover {
+    fill: #294159;
+    opacity: .5;
+}
+
+.textBtnDefault {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.67;
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.rectBtnActive {
+    fill: #ffffff;
+    stroke: #294159;
+    stroke-width: 1px;
+    cursor: pointer;
+}
+
+.textBtnActive {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #122a3c;
+    cursor: pointer;
+}
+
+.map-fill {
+    fill: #343d4b
+}
+
+.subunit-boundary {
+    fill: none;
+    stroke: #1e242c;
+    stroke-dasharray: 2, 2;
+    stroke-linejoin: round;
+}
+
+.high-consumption, .high-consumptionF {
+    fill: transparent;
+    stroke: #db7a7a;
+    stroke-width: 2;
+}
+
+.medium-consumption, .medium-consumptionF {
+    fill: transparent;
+    stroke: #0b8dcc;
+    stroke-width: 2;
+}
+
+.low-consumption, .low-consumptionF {
+    fill: transparent;
+    stroke: #a6d8f0;
+    stroke-width: 2;
+}
+
+.consumption-hover {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 18, 7;
+    opacity: 0;
+}
+
+.hover-details {
+    opacity: 0;
+}
+
+.bgrect {
+    fill: #1e242c;
+    stroke: #fff;
+    stroke-opacity: .1;
+}
+
+.countrytext {
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1.2px;
+    text-align: left;
+    fill: #ffffff;
+}
+
+.regiontext {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1.2px;
+    text-align: left;
+    fill: #ffffff;
+}
+
+.consumptiontext {
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    fill: #ffffff;
+}
+
+.statictext {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    fill: #ffffff;
+}
+
+.consumption {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 1.2px;
+    text-align: left;
+    fill: #294159;
+    cursor: pointer;
+}
+
+.consumption-active {
+    fill: #ffffff;
+}
+
+.filter-rect {
+    stroke: #294159;
+    fill: transparent;
+}
+
+.filter-separator {
+    stroke: #ffffff;
+}
+
+.filtertxt {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    text-align: left;
+    fill: #bbbbbb;
+}
+
+.dropdownValues {
+    display: none;
+}
+
+.dropdownSelected, .dropdownValues text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 1.2px;
+    text-align: left;
+    fill: #ffffff;
+}
+
+.dropdown-rect-hover {
+    cursor: pointer;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.dropdown-rect-hover:hover {
+    opacity: .2;
+}
+
+.dropdownValues text {
+    cursor: pointer;
+}
+
+.dropdownSeparator {
+    stroke: #294159;
+}
+
+.dropdownBg {
+    fill: #294159;
+    stroke: #294159;
+    opacity: .75;
+}
+
+.circle-bg {
+    fill: #2a2b2e;
+}
+
+.circle-header {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    text-align: center;
+    fill: #ffffff;
+    cursor: default;
+}
+
+.circle-body {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    fill: #ffffff;
+    cursor: default;
+}
+
+.bodyG {
+    opacity: 0;
+}
+
+.legend {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.67;
+    text-align: left;
+    fill: #ffffff;
+}
+
+.ticktxtactive {
+    fill: #fff;
+}
+
+.dropdownxs {
+    width: 175px;
+    background: transparent;
+    border: none;
+}
